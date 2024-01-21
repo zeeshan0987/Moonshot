@@ -1,0 +1,35 @@
+
+
+.Navbar{
+    width: 76%;
+    height: 4.2305rem;
+    border-radius: 0.55663rem;
+    background: rgba(217, 217, 217, 0.12);
+    box-shadow: -3.943px 3.943px 3.943px 0px rgba(255, 255, 255, 0.43) inset, 3.943px -3.943px 3.943px 0px rgba(182, 182, 182, 0.43) inset;
+    backdrop-filter: blur(25.034873962402344px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navbar_text{
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.24688rem; /* 112% */
+    padding: 4px;
+    cursor: pointer;
+}
+.navbar_text:hover{
+    color: #ffffff98;
+}
+@media screen and (max-width: 868px) {
+    .Navbar{
+        width: 90%;
+    }
+    .navbar_text{
+        font-size: 3.5vw;
+    }
+}
